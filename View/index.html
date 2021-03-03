@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Login Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/style.css">
+    </head>
+
+    <body>
+
+        <img src="/login.png" class="img-responsive" alt="login" width="300" height="300">
+
+        <form method="post" action="/users/login">
+
+
+            <div class="container">
+              <label for="username"><b>Username</b></label>
+              <input type="text" placeholder=" Enter Username" name="username" required>
+        
+              <label for="password"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="password" required>
+        
+              <button type="submit">Login</button>
+        
+            </div>
+          </form>
+    </body>
+
+</html>
